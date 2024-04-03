@@ -7,10 +7,34 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Teste</h1>
-    <ion-icon name="heart"></ion-icon>
+    <div id="main-container">
+        <div id="adress-container">
+            <div class="fade">
 
-
+            </div>
+            <div class="adress-content">
+                <h2><ion-icon name="navigate-outline"></ion-icon> Endereço</h2>
+                <p>Rua Inventada, 133</p>
+                <h2><ion-icon name="navigate-outline"></ion-icon> Telefone</h2>
+                <p>(35) 99999-9999</p>
+                <h2><ion-icon name="navigate-outline"></ion-icon> E-mail</h2>
+                <p>meuemail@gmail.com</p>
+            </div>
+        </div>
+        <div id="form-container">
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" placeholder="Digite seu e-mail">
+                <label for="phone">Telefone:</label>
+                <input type="text" name="name" placeholder="Digite seu telefone">
+                <label for="msg">Mensagem::</label>
+                <textarea name="msg" placeholder="Como podemos te ajudar?"></textarea>
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </div>
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
